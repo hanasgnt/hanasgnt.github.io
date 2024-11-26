@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-3.png" alt="Hana Sugianto" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Hana Sugianto">Hana Sugianto</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        < class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:hanaasugianto@gmail.com" class="contact-link">hanaasugianto@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+6283848598447" class="contact-link">+6283848598447</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Malang, Jawa Timur</address>
+            </div>
+
+          </li>
+
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+
+            <li class="social-item">
+              <a href="https://github.com/hanasgnt" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/hanasgnt/" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Saya merupakan mahasiswa semester 5 dari jurusan Teknik Informatika dengan pengalaman develop web
+            menggunakan PHP (Native & Laravel), JavaScript, HTML, CSS, serta RESTful API dan
+            basis data MySQL dan Microsoft SQL Server. Terbiasa menggunakan GitHub untuk kontrol versi ketika bekerja
+            dalam tim. Kontribusi saya telah meningkatkan efisiensi sistem pada proyek manajemen data RW.
+
+          </p>
+
+          <p>
+            Saya memiliki motivasi tinggi untuk mempelajari teknologi baru yang belum saya kuasai, seperti Node.js,
+            ReactJS, dan
+            berbagai teknologi lainnya yang mendukung pengembangan aplikasi dan solusi inovatif.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="30">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <!-- <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p> -->
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="30">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <!-- <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p> -->
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-3.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Politeknik Negeri Malang</h4>
+
+              <span>2022 - 2026 (Expected)</span>
+
+              <p class="timeline-text">
+                Mata kuliah yang relevan: Basis Data, Pemrograman Web, Pemrograman Berorientasi Objek, Desain
+                Antarmuka, Analisis dan Desain Berorientasi Objek, Manajemen Proyek, dan Pembelajaran Mesin.
+              </p>
+              <br>
+              <p class="timeline-text">
+                Aktif sebagai Wakil Divisi Relations and Partnerships di Information Technology Development and
+                English Community (ITDEC)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SMA Negeri 9 Malang</h4>
+
+              <span>2020 - 2022</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PLAY IT! (Competition for Learning and Advancing Youth in Information
+                Technology)</h4>
+
+              <span>Oktober 2024 – November 2024 | Acara</span>
+
+              <p class="timeline-text">
+                🤺 Mengawasi operasional booth dan berkoordinasi dengan tim untuk kelancaran aktivitas. <br>
+                🤺 Mengelola kebutuhan barang dari booth game dan sponsor untuk mendukung kegiatan.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Volunteer at PORSENI XIV 2024 </h4>
+
+              <span>Juli 2024 | Liaison Officer</span>
+
+              <p class="timeline-text">
+                🤺 Mendampingi peserta lomba, memberikan bantuan teknis, dan memastikan kenyamanan peserta
+                selama acara berlangsung.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">UKM Usaha Mahasiswa </h4>
+
+              <span>November 2023 | Time Keeper pada ‘Diklat Lapang’</span>
+
+              <p class="timeline-text">
+                Mengawasi durasi kegiatan dan memastikan acara berjalan sesuai jadwal.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">UKM Usaha Mahasiswa </h4>
+
+              <span>November | 2023 Anggota Divisi Tender</span>
+
+              <p class="timeline-text">
+                🤺 Mengelola akun media sosial untuk promosi produk baju, termasuk membuat konten menggunakan
+                Canva. <br>
+                🤺 Berinteraksi dengan pelanggan dan mengoordinasikan pesanan produk. </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- 
+        - #SERTIFIKAT
+      -->
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Sertifikat</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Science Fundamentals (DQLab)</h4>
+
+              <span>Februari 2023</span>
+
+              <p class="timeline-text">
+                🤺 Python Fundamental for Data Science. <br>
+                🤺 Fundamental SQL Using SELECT Statement.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- 
+        - #SKILLS
+      -->
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Hard Skills</h5>
+              </div>
+              <p class="timeline-text">
+                🤺 Web Development: Laravel, PHP, JavaScript, HTML, CSS, Familiar with Node.js and ReactJS (currently
+                learning both technologies).<br>
+                🤺 Database Management: MySQL, Microsoft SQL Server<br>
+                🤺 Version Control: GitHub. <br>
+                🤺 API Development: RESTful API (Laravel)
+              </p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Soft Skills</h5>
+              </div>
+              <p class="timeline-text">
+                🤺 Collaboration in Teams<br>
+                🤺 Effective Communication<br>
+                🤺 Quick Adaptation<br>
+                🤺 Attention to Detail<br>
+                🤺 Proactive
+              </p>
+            </li>
+          </ul>
+
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/WulanMPF/SISRW">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="Sistem Informasi RW" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sistem Informasi RW</h3>
+                <p class="project-category" style="color: goldenrod;">Februari 2024 – Juni 2024 </p>
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Gin-Arata/pasrahTeam-inventory2G">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.jpg" alt="Sistem Inventaris" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sistem Inventaris JTI</h3>
+                <p class="project-category" style="color:goldenrod;">September 2023 – Desember 2023</p>
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://www.figma.com/design/EIGYn0GgSIfmLv35pH2CGf/web-cody?node-id=978-2&t=Awb2kohtNGfTIaub-1">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="Cody" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cody</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
